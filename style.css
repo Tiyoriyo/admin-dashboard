@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 @font-face {
     font-family: Roboto;
     src: url(fonts/Roboto-Regular.ttf);
@@ -16,19 +20,32 @@ body {
 
     display: flex;
     flex-direction: column;
+    justify-content: start;
     
 }
 
+ul {
+    padding-left: 10px;
+}
+
+ul.dashboard-title {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+ul.basic-functions, ul.basic-settings {
+    margin-top: 35px;
+}
+
 li {
+    display: flex;
+    align-items: center;
+    gap:  25px;
     color: #F5F3F4;
     list-style-type: none;
     font-family: Roboto;
     padding: 10px;
     font-weight: bold;
-}
-
-.dashboard-title {
-    font-size: 24px;
 }
 
 .container {
