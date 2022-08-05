@@ -8,14 +8,22 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    background-color: #002855;
+}
+
+.page {
     margin: 0;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 5fr;;
+    width: 80%;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar {
-    background: #161A1D;
+    background: #33415c;
     grid-template-columns: 1 / 2;
 
     display: flex;
@@ -54,7 +62,7 @@ li {
 }
 
 .header {
-    background: #A4161A;
+    background: #5c677d;
     grid-row: 1 / 2;
 }
 
