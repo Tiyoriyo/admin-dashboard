@@ -69,17 +69,18 @@ li {
 
 .container {
     display: grid;
-    grid-template-rows: 1fr / 5fr;
+    grid-template-rows: 1fr 5fr 0.5fr;
 }
 
 .header {
     background: #A3CEF1;
     grid-row: 1 / 2;
+    grid-column: 1;
 }
 
 .main-content {
     background: #E7ECEF;
-    grid-row: 2 / 6;
+    grid-row: 2 / 3;
 
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -111,6 +112,7 @@ li {
     font-weight: bold;
     justify-content: start;
     align-items: flex-end;
+    padding-bottom: 10px;
 }
 
 .ta-top {
