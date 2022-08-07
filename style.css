@@ -33,16 +33,16 @@ body {
     
 }
 
-ul.dashboard-title > li {
+.dashboard-title > li {
     font-size: 24px;
     padding: 24px;
 }
 
-ul.dashboard-title:hover {
+.dashboard-title:hover {
     cursor: pointer;
 }
 
-ul.basic-functions, ul.basic-settings {
+.basic-functions, .basic-settings {
     margin-top: 35px;
 }
 
@@ -51,7 +51,7 @@ ul.basic-functions, ul.basic-settings {
     background: #5c91b4;
 }
 
-ul.basic-settings {
+.basic-settings {
     margin-top: auto;
 }
 
@@ -80,4 +80,15 @@ li {
 .main-content {
     background: #E7ECEF;
     grid-row: 2 / 6;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.projects {
+    grid-column: 1 / 2;
+}
+
+.trend-announce {
+    grid-column: 2 / 3;
 }
