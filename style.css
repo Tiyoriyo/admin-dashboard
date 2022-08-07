@@ -95,14 +95,13 @@ li {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
+
+    padding: 0 20px 0 20px;
 } 
 
 .feed {
     background-color: white;
-    width: 80%;
-    height: 80%;
-    justify-self: center;
-    align-content: center;
+    flex: auto;
 }
 
 .title {
@@ -132,7 +131,7 @@ li {
     grid-row: 2 / 3;
     grid-column: 1;
 
-    display: grid;
+    display: flex;
 }
 
 .ta-bottom {
@@ -152,4 +151,6 @@ li {
 .t-bottom {
     grid-row: 2 / 3;
     grid-column: 1;
+
+    display: flex;
 }
