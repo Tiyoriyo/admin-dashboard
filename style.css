@@ -45,6 +45,11 @@ ul.basic-functions, ul.basic-settings {
     margin-top: 35px;
 }
 
+ul.basic-settings {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
 li {
     display: flex;
     align-items: center;
