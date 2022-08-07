@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -32,22 +33,26 @@ body {
     
 }
 
-ul {
-    padding-left: 10px;
+ul.dashboard-title > li {
+    font-size: 24px;
+    padding: 24px;
 }
 
-ul.dashboard-title {
-    margin-top: 10px;
-    font-size: 24px;
+ul.dashboard-title:hover {
+    cursor: pointer;
 }
 
 ul.basic-functions, ul.basic-settings {
     margin-top: 35px;
 }
 
+.basic-functions > li:hover, .basic-settings > li:hover {
+    cursor: pointer;
+    background: #5c91b4;
+}
+
 ul.basic-settings {
     margin-top: auto;
-    margin-bottom: 10px;
 }
 
 li {
@@ -57,7 +62,8 @@ li {
     color: #F5F3F4;
     list-style-type: none;
     font-family: Roboto;
-    padding: 10px;
+    padding: 12px;
+    padding-left: 15px;
     font-weight: bold;
 }
 
