@@ -10,7 +10,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: #002855;
+    background-color: #E7ECEF;
 }
 
 .page {
@@ -23,7 +23,7 @@ body {
 }
 
 .sidebar {
-    background: #33415c;
+    background: #6096BA;
     grid-template-columns: 1 / 2;
 
     display: flex;
@@ -62,11 +62,11 @@ li {
 }
 
 .header {
-    background: #5c677d;
+    background: #A3CEF1;
     grid-row: 1 / 2;
 }
 
 .main-content {
-    background: #F5F3F4;
+    background: #E7ECEF;
     grid-row: 2 / 6;
 }
