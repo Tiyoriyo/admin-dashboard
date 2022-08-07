@@ -82,7 +82,7 @@ li {
     grid-row: 2 / 6;
 
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .projects {
@@ -91,4 +91,8 @@ li {
 
 .trend-announce {
     grid-column: 2 / 3;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
