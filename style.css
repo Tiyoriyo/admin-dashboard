@@ -97,14 +97,59 @@ li {
     grid-template-columns: 1fr;
 } 
 
-.announcements {
+.feed {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    justify-self: center;
+    align-content: center;
+}
+
+.title {
+    display: flex;
+
+    font-family: Roboto;
+    font-weight: bold;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.ta-top {
+    grid-row: 1 / 2;
+    grid-column: 1;
+
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr;
 }
 
-.trending {
+.a-top {
+    grid-row: 1 / 2;
+    grid-column: 1;
+}
+
+.a-bottom {
+    grid-row: 2 / 3;
+    grid-column: 1;
+
+    display: grid;
+}
+
+.ta-bottom {
+    grid-row: 2 / 3;
+    grid-column: 1;
+
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr;
+}
+
+.t-top {
+    grid-row: 1 / 2;
+    grid-column: 1;
+}
+
+.t-bottom {
+    grid-row: 2 / 3;
+    grid-column: 1;
 }
