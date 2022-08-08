@@ -99,8 +99,9 @@ body {
     gap: 1em;
 }
 
-.p-title {
+div.title.p-title {
     grid-column: 1 / 3;
+    padding: 0;
 }
 
 .p-container {
