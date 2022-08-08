@@ -85,6 +85,7 @@ body {
 
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 1.5em;
 }
 
 .projects {
@@ -92,13 +93,23 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr 3fr 3fr;
+    grid-template-rows: 60.70px 3fr 3fr 3fr;
 
-    padding-left: 2em;
+    padding-left: 1.5em;
 }
 
-.p-t {
+.p-container {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-content: center;
+}
 
+.p-card {
+    display: flex;
+    flex: auto;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .trend-announce {
@@ -108,7 +119,7 @@ body {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
 
-    padding: 0 20px 0 20px;
+    padding-right: 1.5em;
 } 
 
 .ta-top {
