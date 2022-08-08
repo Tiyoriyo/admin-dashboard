@@ -105,6 +105,23 @@ body {
     flex: auto;
     border-radius: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.af-list {
+    display: grid;
+    grid-row: 1 / 4;
+}
+
+.af-item {
+    list-style-type: none;
+}
+
+.h-line {
+    padding: 1px 5px; color: black;
 }
 
 .title {
