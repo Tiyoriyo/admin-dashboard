@@ -110,6 +110,16 @@ body {
     grid-template-rows: 1fr 5fr;
 }
 
+.title {
+    display: flex;
+
+    font-family: Roboto;
+    font-weight: bold;
+    justify-content: start;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
 .a-top {
     grid-row: 1 / 2;
     grid-column: 1;
@@ -151,10 +161,6 @@ body {
     background: white;
 }
 
-.top-row {
-    
-}
-
 .af-title {
     font-weight: bold;
     font-size: 14px;
@@ -165,16 +171,6 @@ body {
     color: rgb(125, 125, 125);
 }
 
-.title {
-    display: flex;
-
-    font-family: Roboto;
-    font-weight: bold;
-    justify-content: start;
-    align-items: flex-end;
-    padding-bottom: 10px;
-}
-
 .ta-bottom {
     grid-row: 2 / 3;
     grid-column: 1;
@@ -183,6 +179,19 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr;
 }
+
+.t-top {
+    grid-row: 1 / 2;
+    grid-column: 1;
+}
+
+.t-bottom {
+    grid-row: 2 / 3;
+    grid-column: 1;
+
+    display: flex;
+}
+
 .t-feed {
     background-color: white;
     flex: auto;
@@ -229,16 +238,4 @@ body {
     color: rgb(125, 125, 125);
     white-space: nowrap;
     font-size: 14px
-}
-
-.t-top {
-    grid-row: 1 / 2;
-    grid-column: 1;
-}
-
-.t-bottom {
-    grid-row: 2 / 3;
-    grid-column: 1;
-
-    display: flex;
 }
