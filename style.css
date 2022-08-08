@@ -93,7 +93,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 60.70px 3fr 3fr 3fr;
+    grid-template-rows: calc(60.70px - 16px) 3fr 3fr 3fr;
 
     padding-left: 1.5em;
     gap: 1em;
