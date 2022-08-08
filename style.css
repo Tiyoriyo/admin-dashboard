@@ -111,7 +111,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
-    padding: 2em;
+    padding: 1em 2em;
 }
 
 
@@ -119,16 +119,31 @@ body {
 .af-list {
     display: grid;
     grid-row: 1 / 4;
-    
+    background: rgb(188, 187, 187);
+    gap: 1px;
 }
 
 .af-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     list-style-type: none;
-    align-self: center;
+    
+    background: white;
+}
+
+.top-row {
+    
 }
 
 .af-title {
     font-weight: bold;
+    font-size: 14px;
+}
+
+.af-content {
+    font-size: 0.8em;
+    color: rgb(125, 125, 125);
 }
 
 .title {
