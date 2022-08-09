@@ -19,7 +19,7 @@ body {
     margin: 0;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 5fr;;
+    grid-template-columns: 1.5fr 5fr;;
     width: 70%;
     box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
 }
@@ -87,7 +87,7 @@ body {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1fr;
     grid-template-rows: 1fr 5fr 1fr 5fr;
-    gap: 1em;
+    gap: 1.2em;
     padding-left: 1em;
 }
 
@@ -99,7 +99,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr 3fr 3fr;
 
-    gap: 1em;
+    gap: 1.5em;
     flex-wrap: wrap;
 }
 
@@ -122,10 +122,20 @@ div.title.a-top {
 
 .p-card {
     display: flex;
+    flex-direction: column;
+    padding: 2em 1em;
     flex: auto;
     background: linear-gradient(90deg, orange 0%, orange 2%, white 2%, white 100%);
     border-radius: 5px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.p-header {
+    font-size: 1em;
+}
+
+.p-content {
+    font-size: 0.9em;
 }
 
 .title {
