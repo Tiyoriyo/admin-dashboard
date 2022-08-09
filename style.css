@@ -147,6 +147,11 @@ div.title.a-top {
     margin-top: auto;
 }
 
+.bi-eye:hover, .bi-share:hover, .bi-heart:hover {
+    cursor: pointer;
+    color: rgb(92, 92, 92);
+}
+
 
 .title {
     display: flex;
