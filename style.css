@@ -138,6 +138,16 @@ div.title.a-top {
     font-size: 0.9em;
 }
 
+.p-button-pack {
+    display: flex;
+    gap: 1em;
+
+    cursor: pointer;
+
+    align-self: flex-end;
+    margin-top: auto;
+}
+
 .title {
     display: flex;
 
