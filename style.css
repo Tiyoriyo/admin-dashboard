@@ -123,7 +123,7 @@ div.title.a-top {
 .p-card {
     display: flex;
     flex-direction: column;
-    padding: 2em 1em;
+    padding: 2em 2em;
     flex: auto;
     background: linear-gradient(90deg, orange 0%, orange 2%, white 2%, white 100%);
     border-radius: 5px;
@@ -142,11 +142,10 @@ div.title.a-top {
     display: flex;
     gap: 1em;
 
-    cursor: pointer;
-
     align-self: flex-end;
     margin-top: auto;
 }
+
 
 .title {
     display: flex;
