@@ -19,7 +19,7 @@ body {
     margin: 0;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1.5fr 5fr;;
+    grid-template-columns: 1.25fr 5fr;;
     width: 70%;
     box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
 }
