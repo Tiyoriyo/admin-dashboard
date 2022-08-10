@@ -74,11 +74,40 @@ body {
 }
 
 .header {
-    background: #A3CEF1;
+    background: white;
     flex: auto;
 }
 
+.h-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-left: 2em;
+}
 
+.ht-left, .ht-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+input[type="search"] {
+    appearance: none;
+    -webkit-appearance: none;
+
+    border: none;
+    background: #E7ECEF;
+    border-radius: 10px;
+    height: 30px;
+    width: 600px;
+    padding-left: 2em;
+}
+
+input[type="search"]:focus {
+    outline: none;
+}
 
 .main-content {
     background: #E7ECEF;
