@@ -138,6 +138,11 @@ input[type="search"]:focus {
     font-size: 12px;
 }
 
+.h-button:hover {
+    cursor: pointer;
+    background-color: #67a8d0;
+}
+
 .main-content {
     background: #E7ECEF;
     grid-row: 2 / 3;
