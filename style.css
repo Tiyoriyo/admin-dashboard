@@ -118,6 +118,26 @@ input[type="search"]:focus {
     cursor: pointer;
 }
 
+.h-bottom {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-left: 2em;
+}
+
+.h-button {
+    appearance: none;
+    border: none;
+    background-color: #6096BA;
+    color: white;
+    border-radius: 1.5em;
+    padding: 10px 25px;
+    font-size: 12px;
+}
+
 .main-content {
     background: #E7ECEF;
     grid-row: 2 / 3;
