@@ -109,6 +109,15 @@ input[type="search"]:focus {
     outline: none;
 }
 
+.greyhov:hover {
+    cursor: pointer;
+    color: rgb(92, 92, 92);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
 .main-content {
     background: #E7ECEF;
     grid-row: 2 / 3;
