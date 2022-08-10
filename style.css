@@ -339,4 +339,18 @@ div.title.t-top {
 
 .footer {
     height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    color: rgb(97, 97, 97);
+}
+
+.sig {
+    color: rgb(125, 125, 125);
 }
