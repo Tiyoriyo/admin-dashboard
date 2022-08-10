@@ -301,7 +301,7 @@ div.title.t-top {
     border-radius: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     
-    padding: 1em 2em;
+    padding: 1em ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -337,10 +337,14 @@ div.title.t-top {
 
 }
 
+.tc-top {
+    font-size: 14px;
+}
+
 .tc-bottom {
     color: rgb(125, 125, 125);
     white-space: nowrap;
-    font-size: 14px
+    font-size: 12px
 }
 
 .footer {
